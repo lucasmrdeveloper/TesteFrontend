@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -11,17 +11,17 @@
 
 <body>
     <main>
-        <form>
-            <div>
+        <form  method="" action="#">
+            <div id="container">
                 <h1>10%OFF NA SUA PRIMEIRA COMPRA</h1>
                 <p>
                     Assine nossa newsletter e fique ligada em nossas novidades, dicas e promoçoes!
                 </p>
 
-                <input type="text" id="username" class="inputs" placeholder="Insira seu nome">
-                <input type="email" id="email" class="inputs" placeholder="Insira seu e-mail">
+                <input type="text" id="username" class="inputs" placeholder="Insira seu nome" required>
+                <input type="email" id="email" class="inputs" placeholder="Insira seu e-mail" required>
 
-                <input type="button" id="submit" class="inputs inputs--submit" value="assinar">
+                <input type="submit" id="submit" class="inputs inputs--submit" value="assinar" onclick="validar()">
             </div>
         </form>
 
@@ -32,6 +32,10 @@
 
 
     </main>
+
+
+    <script src="/js/validacao.js">
+    </script>
 </body>
 
 </html>

@@ -32,7 +32,7 @@ main form {
   }
 }
 @media (max-width: 600px) {
-  main form div {
+  main form #container {
     background-color: white;
     opacity: 70%;
     display: flex;
@@ -40,44 +40,44 @@ main form {
     padding: 20px;
     margin: 0px;
   }
-  main form div h1 {
-    color: #ff475a;
-    font-weight: 400;
-    font-size: 1.5rem;
-    font-weight: bolder;
-    text-align: center;
-    margin-bottom: 2rem;
-  }
-  main form div p {
-    margin-bottom: 2rem;
-    font-weight: 600;
-    text-align: center;
-    font-size: 1.2rem;
-    padding: 1px;
-  }
-  main form div .inputs {
-    width: 100%;
-    background-color: none;
-    padding: 12px;
-    margin-bottom: 10px;
-    border: 1px solid #cbcbcb;
-    font-size: 0.9rem;
-  }
-  main form div .inputs:nth-last-of-type(2) {
-    margin-bottom: 20px;
-  }
-  main form div .inputs:placeholder-shown {
-    text-align: center;
-  }
-  main form div .inputs--submit {
-    background-color: black;
-    color: #ffffff;
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 1rem;
-    border: none;
-    cursor: pointer;
-  }
+}
+main form #container h1 {
+  color: #ff475a;
+  font-weight: 400;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+main form #container p {
+  margin-bottom: 2rem;
+  font-weight: 600;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 1px;
+}
+main form #container .inputs {
+  width: 100%;
+  background-color: none;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #cbcbcb;
+  font-size: 0.9rem;
+}
+main form #container .inputs:nth-last-of-type(2) {
+  margin-bottom: 20px;
+}
+main form #container .inputs:placeholder-shown {
+  text-align: center;
+}
+main form #container .inputs--submit {
+  background-color: black;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
 }
 main #imagem {
   height: 500px;
