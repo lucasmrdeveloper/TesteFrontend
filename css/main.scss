@@ -19,7 +19,7 @@ main {
         background-color: #ffffff;
 
         @media (max-width: variables.$breakpoint-mobile) {
-            background-image: url("/img/foto.jpg");
+            background-image: url("./img/foto.jpg");
             background-size: cover;
             background-repeat: no-repeat;
             height: max-content;

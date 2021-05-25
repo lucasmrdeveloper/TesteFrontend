@@ -25,7 +25,7 @@ main form {
 }
 @media (max-width: 600px) {
   main form {
-    background-image: url("/img/foto.jpg");
+    background-image: url("./img/foto.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: max-content;
